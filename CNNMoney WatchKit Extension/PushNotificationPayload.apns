@@ -14,5 +14,6 @@
         }
     ],
     
-    "payload": "{\"style\":\"BigTextStyle\",\"BigTextStyle\": {\"bigContentTitle\": \"Market News\",\"bigText\": \"Thank you, Janet Yellen! Stocks surge after Fed\",\"summary\": \"\"},\"smallIcon\":\"sm_icon\",\"actions\": [{\"icon\": \"ic_open\", \"actionName\": \"Open on phone\", \"intentName\": \"http:\/\/money.cnn.com\/2015\/03\/12\/investing\/gold-rebound-doubleline-gundlach\/index.html?section=money_markets&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+rss%2Fmoney_markets+%28Markets%29\" }]}"
+    "payload":"{\"style\":\"BigTextStyle\",\"BigTextStyle\": {\"bigContentTitle\": \"Market News\",\"bigText\": \"short description\",\"summary\": \"\"},\"smallIcon\":\"sm_icon\",\"actions\": [{\"icon\": \"ic_open\",\"actionName\": \"Open on phone\",\"intentName\": \"com.intuitlabs.android.moneywatch.DismissAndView\",\"extras\": [\"http://rss.cnn.com/~r/rss/money_markets/~3/y2nzrXhrAMM/index.html\"]}]}",
+    "payload_old": "{\"style\":\"BigTextStyle\",\"BigTextStyle\": {\"bigContentTitle\": \"Market News\",\"bigText\": \"Thank you, Janet Yellen! Stocks surge after Fed\",\"summary\": \"\"},\"smallIcon\":\"sm_icon\",\"actions\": [{\"icon\": \"ic_open\", \"actionName\": \"Open on phone\", \"intentName\": \"http:\/\/money.cnn.com\/2015\/03\/12\/investing\/gold-rebound-doubleline-gundlach\/index.html?section=money_markets&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+rss%2Fmoney_markets+%28Markets%29\" }]}"
 }

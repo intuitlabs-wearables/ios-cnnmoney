@@ -48,6 +48,12 @@
 @property (nonatomic, retain) NSString *radialHeaderText;
 
 /*!
+ * @discussion The number of images in the Radial circle.
+ */
+
+@property (nonatomic) NSInteger numberOfImages;
+
+/*!
  *  Initializes the IWRadialIndicator with the data from RadialStyle.
  *
  *  @param radialStyle The RadialStyle object that contains all of the

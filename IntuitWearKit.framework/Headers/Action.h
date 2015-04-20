@@ -49,4 +49,9 @@
  */
 @property (nonatomic, retain) NSString *intentName;
 
+/*!
+ *  Extra parameters for the intent launched.
+ */
+@property (nonatomic, retain) NSArray<Optional> *extras;
+
 @end
