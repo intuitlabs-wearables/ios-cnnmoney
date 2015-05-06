@@ -36,7 +36,7 @@ NSData* globaldeviceToken;
     UIMutableUserNotificationAction *viewAction = [[UIMutableUserNotificationAction alloc] init];
     viewAction.identifier = @"viewUrl";
     viewAction.title = @"View More";
-    viewAction.activationMode = UIUserNotificationActivationModeForeground;
+    viewAction.activationMode = UIUserNotificationActivationModeBackground;
     viewAction.destructive = NO;
     
     // Define Categories (In case of categorized remote push notifications)
