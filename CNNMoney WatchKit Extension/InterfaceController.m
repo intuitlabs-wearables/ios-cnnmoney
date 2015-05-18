@@ -43,7 +43,7 @@
 - (void)handleActionWithIdentifier:(NSString *)identifier
              forRemoteNotification:(NSDictionary *)remoteNotification {
     
-    if([identifier isEqualToString:@"launchUrl"]) {
+    if([identifier isEqualToString:@"viewUrl"]) {
         IWearNotificationContent *notificationContent = [[IWearNotificationContent alloc] initWithString:[remoteNotification objectForKey:@"payload" ] error:nil];
         
         // We don't use this on iOS.  Just getting it to test it works
